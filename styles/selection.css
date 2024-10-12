@@ -15,7 +15,7 @@ div#cases_selection {
 img.caseImage {
     width: 5em;
     height: 5em;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 div#modeButtons {
