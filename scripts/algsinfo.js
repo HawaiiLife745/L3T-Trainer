@@ -34,21 +34,21 @@ var algsGroups = {
 
 var algsInfo = {
     "1": {
-        "name": "A1+",
+        "name": "1.E.1",
         "a": [
             "(F' R' F R U' R' F' R2 U R' U' R' F R)"
         ],
         "s": "R' U R2 U2' R U2 R2 U' R U R2 U2' R' U2 R'"
     },
     "2": {
-        "name": "A1-",
+        "name": "1.E.2",
         "a": [
             "(R' F' R U R U' R2' F R U R' F' R F)"
         ],
         "s": "R U2 R2' U2 R U2' R U' R' U2' R' U2 R2 U' R'"
     },
     "3": {
-        "name": "A2+",
+        "name": "1.E.3",
         "a": [
             "(BR' R' U L U' R' U L' U' R2 BR) ",
             "(R' U2' R U' R' F' R U R' U' R' F R U2' R)"
@@ -56,7 +56,7 @@ var algsInfo = {
         "s": "R U2 R2' U2 R2' U R2 U2 R2 U2' R U' R' U R'"
     },
     "4": {
-        "name": "A2-",
+        "name": "1.E.4",
         "a": [
             "(BR' R2' U L U' R U L' U' R BR)",
             "y' (R' U2 R' F' R U R U' R' F R U R' U2 R)"
@@ -64,7 +64,7 @@ var algsInfo = {
         "s": "R U' R U R' U2 R2' U2' R2' U' R2 U2' R2 U2' R'"
     },
     "5": {
-        "name": "B1+",
+        "name": "1.E.5",
         "a": [
             "(R U R' U' R' U2' R U R U' R2' U2 R)",
             "(y2) (R' U2' R2 U R' U' R' U2 R U R U' R')"
@@ -72,7 +72,7 @@ var algsInfo = {
         "s": "R2 U R2' U2 R2 U2 R2' U2' R2 U R2' U R2 U2' R2'"
     },
     "6": {
-        "name": "B1-",
+        "name": "1.E.6",
         "a": [
             "(R' U' R U R U2 R' U' R' U R2 U2' R')",
             "(y2') (R U2 R2' U' R U R U2' R' U' R' U R)"
@@ -80,7 +80,7 @@ var algsInfo = {
         "s": "R2 U2' R2' U R2 U R2' U2' R2 U2 R2' U2 R2 U R2'"
     },
     "7": {
-        "name": "B2+",
+        "name": "1.E.7",
         "a": [
             "(R2 U R2' U2 R U2' R U R' U' R U' R2' U2 R U R')",
             "(y2') (R U' R' U2' R2 U R' U R U' R' U2 R' U2' R2 U' R2')"
@@ -88,7 +88,7 @@ var algsInfo = {
         "s": "R U' R' U2 R2 U R2' U' R2 U2 R2' U R U R U2' R2'"
     },
     "8": {
-        "name": "B2-",
+        "name": "1.E.8",
         "a": [
             "(R2' U' R2 U2' R' U2 R' U' R U R' U R2 U2' R' U' R)",
             "(y2) (R' U R U2 R2' U' R U' R' U R U2' R U2 R2' U R2)"
@@ -96,7 +96,7 @@ var algsInfo = {
         "s": "R2 U R2 U2 R2 U2' R U' R2 U2 R2 U' R2' U R2 U R'"
     },
     "9": {
-        "name": "C1+",
+        "name": "1.E.9",
         "a": [
             "(R U2 R' U' R U2' R' U R U R2' U' R U' R U R2' U R)",
             "(y') (R U R' U2' R' U2' R U' R U R2' U2 R U2' R U2' R')",
@@ -105,7 +105,7 @@ var algsInfo = {
         "s": "R U2 R' U2 R' U2' R2 U' R' U R' U2 R U2 R U' R'"
     },
     "10": {
-        "name": "C1-",
+        "name": "1.O.1",
         "a": [
             "(R' U2' R U R' U2 R U' R' U' R2 U R' U R' U' R2 U' R')",
             "(y') (R' U' R U2 R U2 R' U R' U' R2 U2' R' U2 R' U2 R)"
@@ -113,7 +113,7 @@ var algsInfo = {
         "s": "R' U2' R U2' R U2 R2' U R U' R U2' R' U2' R' U R"
     },
     "11": {
-        "name": "C2+",
+        "name": "1.O.2",
         "a": [
             "(R' U' R U' R U2 R2' U' R2 U' R2' U2' R U R' U2 R) ",
             "(y2) (R' U2' R U' R' U2 R2 U R2' U R2 U2' R' U R' U R)"
@@ -121,7 +121,7 @@ var algsInfo = {
         "s": "R' U' R U' R U2 R2' U' R2 U' R2' U2' R U R' U2 R"
     },
     "12": {
-        "name": "C2-",
+        "name": "1.O.3",
         "a": [
             "(R U R' U R' U2' R2 U R2' U R2 U2 R' U' R U2' R') ",
             "(y2') (R U2 R' U R U2' R2' U' R2 U' R2' U2 R U' R U' R')"
@@ -129,7 +129,7 @@ var algsInfo = {
         "s": "R U R' U R' U2' R2 U R2' U R2 U2 R' U' R U2' R'"
     },
     "13": {
-        "name": "C3+",
+        "name": "2.E.1",
         "a": [
             "(R2' U2 R2 U R2' U' R2 U2' R2' U' R2 U2 R2' U2' R2)",
             "(y) (R2' U2 R2 U2' R2' U R2 U2 R2' U R2 U' R2' U2' R2)"
@@ -137,7 +137,7 @@ var algsInfo = {
         "s": "R2 U2 R2' U R2 U' R2' U2' R2 U' R2' U2 R2 U2' R2'"
     },
     "14": {
-        "name": "C3-",
+        "name": "2.E.2",
         "a": [
             "(R2 U2' R2' U' R2 U R2' U2 R2 U R2' U2' R2 U2 R2')",
             "(y') (R2' U2' R2 U2 R2' U' R2 U2' R2' U' R2 U R2' U2 R2)"
@@ -145,7 +145,7 @@ var algsInfo = {
         "s": "R2 U2' R2' U' R2 U R2' U2 R2 U R2' U2' R2 U2 R2'"
     },
     "15": {
-        "name": "C4+",
+        "name": "2.E.3",
         "a": [
             "(R2' U2' R2 U' R2' U2' R2 U' R2' U2 R2 U R2' U2 R2)",
             "(y2) (R2' U2 R2 bR2' U R2' U' R2 U' bR2 U R2' U2' R2)"
@@ -153,7 +153,7 @@ var algsInfo = {
         "s": "R2 U2' R2' U' R2 U2' R2' U R2 U2 R2' U R2 U2 R2'"
     },
     "16": {
-        "name": "C4-",
+        "name": "2.E.4",
         "a": [
             "(R2' U2 R2 U R2' U2 R2 U R2' U2' R2 U' R2' U2' R2)",
             "(y2') (R2 U2' R2' F2 U' R2 U R2' U F2' U' R2 U2 R2')"
@@ -161,7 +161,7 @@ var algsInfo = {
         "s": "R2 U2 R2' U R2 U2 R2' U' R2 U2' R2' U' R2 U2' R2'"
     },
     "17": {
-        "name": "C5+",
+        "name": "2.E.5",
         "a": [
             "(R' U2' R F U' R' U' R U F' U R' U2 R)",
             "(R' U2' R U L U2' R' U' R U2 L' R' U2 R)"
@@ -169,7 +169,7 @@ var algsInfo = {
         "s": "R' U2' R U2' R' U' R U R' U2' R' U2' R U' R' U2' R2"
     },
     "18": {
-        "name": "C5-",
+        "name": "2.E.6",
         "a": [
             "(R U2 R' BR' U R U R' U' BR U' R U2' R')",
             "(F' R U2 R' U F R U' R' U R' F' R U' R U2' R' F)"
@@ -177,35 +177,35 @@ var algsInfo = {
         "s": "R U2 R' U2 R U R' U' R U2 R U2 R' U R U2 R2'"
     },
     "19": {
-        "name": "C6+",
+        "name": "2.E.7",
         "a": [
             "(R U' R' U2 R2 U R' U2 R U' R' U' R U' R' U' R')"
         ],
         "s": "R U R U R' U R U R' U2' R U' R2' U2' R U R'"
     },
     "20": {
-        "name": "C6-",
+        "name": "2.E.8",
         "a": [
             "(R' U R U2' R2' U' R U2' R' U R U R' U R U R)"
         ],
         "s": "R' U' R' U' R U' R' U' R U2 R' U R2 U2 R' U' R"
     },
     "21": {
-        "name": "D+",
+        "name": "2.E.9",
         "a": [
             "(R U2 R' U' R U R' U R U2' R' U2 R U2 R')"
         ],
         "s": "R' U2' R U R' U' R U' R' U2 R U2' R' U2' R"
     },
     "22": {
-        "name": "D-",
+        "name": "2.O.1",
         "a": [
             "(R' U2' R U R' U' R U' R' U2 R U2' R' U2' R)"
         ],
         "s": "R U2 R' U' R U R' U R U2' R' U2 R U2 R'"
     },
     "23": {
-        "name": "E1",
+        "name": "2.O.2",
         "a": [
             "(R U R' U R' U' R F' R U R' U' R' F R2 U' R2' U R)",
             "(y2) (R' U' R' DR' R U' R' DR R U R' DR' R U R' DR R2)"
@@ -213,7 +213,7 @@ var algsInfo = {
         "s": "R' U2' R U R2' U' R U' R' U R2 U' R' U R' U R U R"
     },
     "24": {
-        "name": "E2",
+        "name": "2.O.3",
         "a": [
             "(x') (R U' R' DR R U R' DR' R U R' DR R U' R' DR')",
             "(y') (R2 U R' U' y R U R' U' R U R' U' R U R' F U' F2')",
@@ -222,14 +222,14 @@ var algsInfo = {
         "s": "R2 U2 R2 U R' U' R U' R2' U R U' R U R' U R' U2 R2'"
     },
     "25": {
-        "name": "E3",
+        "name": "3.E.1",
         "a": [
             "(L' R U2 R' U' R U R' U' R U R' U' R U' R' L)"
         ],
         "s": "R' U2 R' U2' R2' U2 R2' U' R2 U' R' U' R2' U2 R U2' R"
     },
     "26": {
-        "name": "F1+",
+        "name": "3.E.2",
         "a": [
             "(R2 U2 R2' U R2 U2 R2')",
             "(R2' U2 R2 U R2' U2 R2)"
@@ -237,84 +237,84 @@ var algsInfo = {
         "s": "R U R2' U' R2 U2' R2' U2 R U' R' U2 R2 U2 R'"
     },
     "27": {
-        "name": "F1-",
+        "name": "3.E.3",
         "a": [
             "(R2 U2' R2' U' R2 U2' R2')"
         ],
         "s": "R' U' R2 U R2' U2 R2 U2' R' U R U2' R2' U2' R"
     },
     "28": {
-        "name": "F2+",
+        "name": "3.E.4",
         "a": [
             "(R U R' U2 R' U2' R2 U' R' U R' U2 R)"
         ],
         "s": "R U' R' U2' R U' R U R2' U2 R U2' R U' R' U' R'"
     },
     "29": {
-        "name": "F2-",
+        "name": "3.E.5",
         "a": [
             "(R' U' R U2' R U2 R2' U R U' R U2' R')"
         ],
         "s": "R U R U2 R' U R' U' R2 U2' R' U2 R' U R U R'"
     },
     "30": {
-        "name": "F3+",
+        "name": "3.E.6",
         "a": [
             "(R' U2' R U' R U R2' U2 R U2' R U' R')"
         ],
         "s": "R U R U R' U2 R' U2' R2 U' R' U R' U2 R U R'"
     },
     "31": {
-        "name": "F3-",
+        "name": "3.E.7",
         "a": [
             "(R U2 R' U R' U' R2 U2' R' U2 R' U R)"
         ],
         "s": "R U' R' U' R U2' R U2 R2' U R U' R U2' R' U' R'"
     },
     "32": {
-        "name": "F4+",
+        "name": "3.E.8",
         "a": [
             "(R U R' U R2 U2' R2' U2' R U2 R U2 R' U2' R')"
         ],
         "s": "R U2' R2 U2' R2' U' R2 U2' R2 U2' R U2' R' U' R U2' R'"
     },
     "33": {
-        "name": "F4-",
+        "name": "3.E.9",
         "a": [
             "(R' U' R U' R2' U2 R2 U2 R' U2' R' U2' R U2 R)"
         ],
         "s": "R' U2 R2 U2 R2' U R2 U2 R' U R' U2' R U' R' U2' R"
     },
     "34": {
-        "name": "F5+",
+        "name": "3.O.1",
         "a": [
             "(R U2 R U2' R' U2' R' U2 R2 U2 R2' U' R U' R')"
         ],
         "s": "R U2' R' U' R U2' R' U R2' U2 R2' U R2 U2 R2' U2 R'"
     },
     "35": {
-        "name": "F5-",
+        "name": "3.O.2",
         "a": [
             "(R' U2' R' U2 R U2 R U2' R2' U2' R2 U R' U R)"
         ],
         "s": "R' U2' R U' R' U2' R U2' R U2' R2' U' R2 U2' R2' U2' R"
     },
     "36": {
-        "name": "G1+",
+        "name": "3.O.3",
         "a": [
             "(R' U2 R2 U2' R' U2 R' U R U2 R' U R2 U2 R2' U2' R)"
         ],
         "s": "R2' U2 R2' U2' R2 U' R U2' R' U' R U2' R2 U2 R2 U2' R2"
     },
     "37": {
-        "name": "G1-",
+        "name": "3.O.4",
         "a": [
             "(R U2' R2' U2 R U2' R U' R' U2' R U' R2' U2' R2 U2 R')"
         ],
         "s": "R U2' R2' U2 R U2' R U' R' U2' R U' R2' U2' R2 U2 R'"
     },
     "38": {
-        "name": "G2+",
+        "name": "3.O.5",
         "a": [
             "(R U' R2' U' F U F' R2 U2' R' U R U2 R' F U' F')",
             "(y') (R U2' R' U' R U2' R2' U2 L U' R U L' R' U2' R)",
@@ -323,14 +323,14 @@ var algsInfo = {
         "s": "R U2' R' U2' R2' U R' U' R2' U R' U2' R2 U R U R' U' R2"
     },
     "39": {
-        "name": "G2-",
+        "name": "3.O.6",
         "a": [
             "(F U2' R' U' R F' R' U' R F U' R' U2' R U2 F')"
         ],
         "s": "R' U2 R U R' U R2' U' R' U R2' U R2' U' R' U' R U R2'"
     },
     "40": {
-        "name": "H1+",
+        "name": "3.O.7",
         "a": [
             "(R' DR' R U R' DR R U)x3",
             "(R U2 R' U2 R U' R' U' R U2 R' U R' F' R U R U' R' F)"
@@ -338,7 +338,7 @@ var algsInfo = {
         "s": "R U2 R2 U2 R U' R U R U' R U R2 U2' R2' U2' R' U' R2 U' R2'"
     },
     "41": {
-        "name": "H1-",
+        "name": "3.O.8",
         "a": [
             "(R' DR' R U' R' DR R U')x3",
             "(F' R U R' U' R' F R U' R U2' R' U R U R' U2' R U2' R')"
@@ -346,21 +346,21 @@ var algsInfo = {
         "s": "R2 U R2' U R U2 R2 U2 R2' U' R' U R' U' R' U R' U2' R2' U2' R'"
     },
     "42": {
-        "name": "H2+",
+        "name": "3.O.9",
         "a": [
             "(R2 U2 R2' U' R2 U' R2' y' R2' U' R2 U' R2' U2 R2)"
         ],
         "s": "R2 U2 R U2' R2' U2 R2' U2' R U2' R' U' R2 U R2 U' R' U R2'"
     },
     "43": {
-        "name": "H2-",
+        "name": "4a.E.1",
         "a": [
             "(R2' U2' R2 U R2' U R2 y R2 U R2' U R2 U2' R2')"
         ],
         "s": "R2 U' R U R2' U' R2' U R U2 R' U2 R2 U2' R2 U2 R' U2' R2'"
     },
     "44": {
-        "name": "I1+",
+        "name": "4a.E.2",
         "a": [
             "(R U2 R' U R' U' R U F' R U R' U' R' F U R2 U R')",
             "(R2' U2 R2 U R2' F2 U' R2 U R2' U F2' U R2)"
@@ -368,7 +368,7 @@ var algsInfo = {
         "s": "R' U2 R' U2 R' U2 R2 U2 R2 U2' R U R2' U R U R2 U R"
     },
     "45": {
-        "name": "I1-",
+        "name": "4a.E.3",
         "a": [
             "(R2 U2' R2' U' R2 bR2' U R2' U' R2 U' bR2 U' R2')",
             "(y2') (BR' R2' U2' R2 U R2' U R2 BR R U R' U R U2' R')"
@@ -376,7 +376,7 @@ var algsInfo = {
         "s": "R U2' R U2' R U2' R2' U2' R2' U2 R' U' R2 U' R' U' R2' U' R'"
     },
     "46": {
-        "name": "I2+",
+        "name": "4a.E.4",
         "a": [
             "(R U' R2' U' F' R U R U' R' F U' R' U R U' R U2' R')",
             "(R2' U' F2 U' R2 U' R2' U F2' R2 U' R2' U2' R2)"
@@ -384,7 +384,7 @@ var algsInfo = {
         "s": "R' U' R2' U' R' U' R2 U' R' U2 R2' U2' R2' U2' R U2' R U2' R"
     },
     "47": {
-        "name": "I2-",
+        "name": "4a.E.5",
         "a": [
             "(R2 U bR2' U R2' U R2 U' bR2 R2' U R2 U2 R2')",
             "(y2) (R U2 R' U' R U' R' BR' R2' U' R2 U' R2' U2 R2 BR)"
@@ -392,7 +392,7 @@ var algsInfo = {
         "s": "R U R2 U R U R2' U R U2' R2 U2 R2 U2 R' U2 R' U2 R'"
     },
     "48": {
-        "name": "I3+",
+        "name": "4a.E.6",
         "a": [
             "(R' U2 R2 U2 R' U2' R' U2' R U2 R U R' U2' R U' R')",
             "(y') (R2 U R2' U R2 U2' R2' U2 y' R2' U' R2 U2' R2' U2' R2)"
@@ -400,7 +400,7 @@ var algsInfo = {
         "s": "R U R' U2 R U' R' U2' R' U2 R U2 R U2' R2' U2' R"
     },
     "49": {
-        "name": "I3-",
+        "name": "4a.E.7",
         "a": [
             "(R U2' R2' U2' R U2 R U2 R' U2' R' U' R U2 R' U R)",
             "(y) (R2' U' R2 U' R2' U2 R2 U2' y R2 U R2' U2 R2 U2 R2')"
@@ -408,7 +408,7 @@ var algsInfo = {
         "s": "R U2' R2' U2' R U2 R U2 R' U2' R' U' R U2 R' U R"
     },
     "50": {
-        "name": "I4+",
+        "name": "4a.E.8",
         "a": [
             "(R' U' R' U2' F' R U R U' R' F R' U2 R U R)",
             "(y') (R U2' R' U' R U' R U2 R' U' R U' R2' U R U2' R')"
@@ -416,14 +416,14 @@ var algsInfo = {
         "s": "R U2 R' U' R2 U R' U R U2' R' U R' U R U2 R'"
     },
     "51": {
-        "name": "I4-",
+        "name": "4a.E.9",
         "a": [
             "(R' U2 R U R' U R' U2' R U R' U R2 U' R' U2 R)"
         ],
         "s": "R' U2' R U R2' U' R U' R' U2 R U' R U' R' U2' R"
     },
     "52": {
-        "name": "I5+",
+        "name": "4a.O.1",
         "a": [
             "(R' U' R' U2' R F' R U R' U' R' F U2 R U R)",
             "(R U2 R' U' R2 U R' U R U2' R' U R' U R U2 R')"
@@ -431,14 +431,14 @@ var algsInfo = {
         "s": "R U2' R' U' R U' R U2 R' U' R U' R2' U R U2' R'"
     },
     "53": {
-        "name": "I5-",
+        "name": "4a.O.2",
         "a": [
             "(R' U2' R U R2' U' R U' R' U2 R U' R U' R' U2' R)"
         ],
         "s": "R' U2 R U R' U R' U2' R U R' U R2 U' R' U2 R"
     },
     "54": {
-        "name": "I6+",
+        "name": "4a.O.3",
         "a": [
             "x' (R2 U2' R2' F' R2 U2 R2' F2 R2 U2' R2' F' R2 U2 R2')",
             "y2' (F R U2 R' U' R U' R' F' U R' U' R U2' R' U R U R' U R)"
@@ -446,7 +446,7 @@ var algsInfo = {
         "s": "R U' R' U2 R U2 R' U2' R' U2' R2 U R U2' R2 U2' R2' U' R2'"
     },
     "55": {
-        "name": "I6-",
+        "name": "4a.O.4",
         "a": [
             "(R2' F2 R2 U' R2' F2' R2 U2 R2' F2 R2 U' R2' F2' R2)",
             "(y2') (R2' F2 R2 U R2' F2' R2 U2' R2' F2 R2 U R2' F2' R2)",
@@ -455,7 +455,7 @@ var algsInfo = {
         "s": "R' U R U2' R' U2' R U2 R U2 R2' U' R' U2 R2' U2 R2 U R2"
     },
     "56": {
-        "name": "J1+",
+        "name": "4a.O.5",
         "a": [
             "(R U R' F' R U R' U' R' F R2 U' R')",
             "(y2') (R U R2' F' R U R U' R' F R U' R')"
@@ -463,21 +463,21 @@ var algsInfo = {
         "s": "R U2' R U2 R' U2' R' U R U2 R U2' R' U2 R'"
     },
     "57": {
-        "name": "J1-",
+        "name": "4a.O.6",
         "a": [
             "(F U' R' F R2 U' R' U' R U R' F' R U R' F')"
         ],
         "s": "R' U2 R' U2' R U2 R U2 R' U2 R' U2' R U2 R"
     },
     "58": {
-        "name": "J2+",
+        "name": "4a.O.7",
         "a": [
             "(R' U2' R U2 R' U R U R U2 R' U' R U' R2' U' R)"
         ],
         "s": "R2 U R2' U2 R2 U2 R2' U2' R2 U R2' U2 R2 U2 R2'"
     },
     "59": {
-        "name": "J2-",
+        "name": "4a.O.8",
         "a": [
             "(R U2 R' U2' R U' R' U' R' U2' R U R' U R2 U R')",
             "(y2') (R U2 R' U R2' U' R U' R U R' U R2 U2 R' U R' U' R' U R2)"
@@ -485,7 +485,7 @@ var algsInfo = {
         "s": "R2 U' R2' U R2 U2 R2' U2' R2 U R2' U2' R2 U2' R2'"
     },
     "60": {
-        "name": "J3+",
+        "name": "4a.O.9",
         "a": [
             "(R U R' U' R' U2' R U R U R2' U R2 U2 R2' U2' R)",
             "(R' U R2 U R' U R U2' R' U' R' U' R U2' R' U2 R)"
@@ -493,7 +493,7 @@ var algsInfo = {
         "s": "R2 U2' R2' U2' R2 U R2' U2' R2 U2 R2' U R2 U' R2'"
     },
     "61": {
-        "name": "J3-",
+        "name": "4b.E.1",
         "a": [
             "(R U' R2' U' R U' R' U2 R U R U R' U2 R U2' R')",
             "y2 (F U F' R2' F U' F U' R2 U R2' U F2' R2)"
