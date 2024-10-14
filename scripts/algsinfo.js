@@ -36,97 +36,86 @@ var algsInfo = {
     "1": {
         "name": "1.E.1",
         "a": [
-            "(F' R' F R U' R' F' R2 U R' U' R' F R)"
+            "Skip"
         ],
-        "s": "R' U R2 U2' R U2 R2 U' R U R2 U2' R' U2 R'"
+        "s": "solved"
     },
     "2": {
         "name": "1.E.2",
         "a": [
-            "(R' F' R U R U' R2' F R U R' F' R F)"
+            "{L, F} (R’ U R’ D’ R U’ R’ D R’)"
         ],
         "s": "R U2 R2' U2 R U2' R U' R' U2' R' U2 R2 U' R'"
     },
     "3": {
         "name": "1.E.3",
         "a": [
-            "(BR' R' U L U' R' U L' U' R2 BR) ",
-            "(R' U2' R U' R' F' R U R' U' R' F R U2' R)"
+            "{L, F} (R D’ R U R’ D R U’ R)"
         ],
-        "s": "R U2 R2' U2 R2' U R2 U2 R2 U2' R U' R' U R'"
+        "s": "B' R B U' B' R' B' R B' U B R' B'"
     },
     "4": {
         "name": "1.E.4",
         "a": [
-            "(BR' R2' U L U' R U L' U' R BR)",
-            "y' (R' U2 R' F' R U R U' R' F R U R' U2 R)"
+            "{L, F} (U’ Rs’ U’ R’ U Rs U’ R U’)"
         ],
-        "s": "R U' R U R' U2 R2' U2' R2' U' R2 U2' R2 U2' R'"
+        "s": "B' R B R U' L R L' R' U B' R B"
     },
     "5": {
         "name": "1.E.5",
         "a": [
-            "(R U R' U' R' U2' R U R U' R2' U2 R)",
-            "(y2) (R' U2' R2 U R' U' R' U2 R U R U' R')"
+            "{L, F} (U R’ U Rs’ U’ R U Rs U)"
         ],
-        "s": "R2 U R2' U2 R2 U2 R2' U2' R2 U R2' U R2 U2' R2'"
+        "s": "B L' B' L' U R' L' R L U' B L' B'"
     },
     "6": {
         "name": "1.E.6",
         "a": [
-            "(R' U' R U R U2 R' U' R' U R2 U2' R')",
-            "(y2') (R U2 R2' U' R U R U2' R' U' R' U R)"
+            "{B, U} (U' R U R {R, F} R' D R' U R D' R)"
         ],
-        "s": "R2 U2' R2' U R2 U R2' U2' R2 U2 R2' U2 R2 U R2'"
+        "s": "L R' L' R' U' B' R' B' R B' U B R' B'"
     },
     "7": {
         "name": "1.E.7",
         "a": [
-            "(R2 U R2' U2 R U2' R U R' U' R U' R2' U2 R U R')",
-            "(y2') (R U' R' U2' R2 U R' U R U' R' U2 R' U2' R2 U' R2')"
+            "{B,U} (R U' R' U' {U, BL} R D' R U' R' D R')"
         ],
-        "s": "R U' R' U2 R2 U R2' U' R2 U2 R2' U R U R U2' R2'"
+        "s": "R L R' U' R L' R L R U L B L B'"
     },
     "8": {
         "name": "1.E.8",
         "a": [
-            "(R2' U' R2 U2' R' U2 R' U' R U R' U R2 U2' R' U' R)",
-            "(y2) (R' U R U2 R2' U' R U' R' U R U2' R U2 R2' U R2)"
+            "{U, F} (L R’ L’ R’ B’ R’ B)"
         ],
-        "s": "R2 U R2 U2 R2 U2' R U' R2 U2 R2 U' R2' U R2 U R'"
+        "s": "B R L B R B' R' L' R' B'"
     },
     "9": {
         "name": "1.E.9",
         "a": [
-            "(R U2 R' U' R U2' R' U R U R2' U' R U' R U R2' U R)",
-            "(y') (R U R' U2' R' U2' R U' R U R2' U2 R U2' R U2' R')",
-            "(y2) (R U2 R' U R F U R' U' R F' R' U R U R')"
+            "{U, F} (B’ R B R L R L’)"
         ],
-        "s": "R U2 R' U2 R' U2' R2 U' R' U R' U2 R U2 R U' R'"
+        "s": "B R L R B R' B' L' R' B'"
     },
     "10": {
         "name": "1.O.1",
         "a": [
-            "(R' U2' R U R' U2 R U' R' U' R2 U R' U R' U' R2 U' R')",
-            "(y') (R' U' R U2 R U2 R' U R' U' R2 U2' R' U2 R' U2 R)"
+            "{B, BR} (Rw U R' U' Rs' U R U' R')"
         ],
-        "s": "R' U2' R U2' R U2 R2' U R U' R U2' R' U2' R' U R"
+        "s": "R B L' B' L R' U R L R L' R"
     },
     "11": {
         "name": "1.O.2",
         "a": [
-            "(R' U' R U' R U2 R2' U' R2 U' R2' U2' R U R' U2 R) ",
-            "(y2) (R' U2' R U' R' U2 R2 U R2' U R2 U2' R' U R' U R)"
+            "{BL,F} (R' U B' L R' L' R B U' R)"
         ],
-        "s": "R' U' R U' R U2 R2' U' R2 U' R2' U2' R U R' U2 R"
+        "s": "R B' R B R U B R L R' L' B'"
     },
     "12": {
         "name": "1.O.3",
         "a": [
-            "(R U R' U R' U2' R2 U R2' U R2 U2 R' U' R U2' R') ",
-            "(y2') (R U2 R' U R U2' R2' U' R2 U' R2' U2 R U' R U' R')"
+            "{BR,U} (R U' L B' R B R' L' U R)'"
         ],
-        "s": "R U R' U R' U2' R2 U R2' U R2 U2 R' U' R U2' R'"
+        "s": "R' B R B' U B L R' L B' L R"
     },
     "13": {
         "name": "2.E.1",
