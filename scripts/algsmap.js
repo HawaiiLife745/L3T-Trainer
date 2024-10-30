@@ -432,7 +432,7 @@
   ],
   60: [
     "D B' R' B R U' D' R D R D' R",
-    'D R' L' R L U' D' L D L D' L",
+    "D R' L' R L U' D' L D L D' L",
     "D L' B' L B U' D' B D B D' B",
     "B' R B R' U' B R' L R L' R B' R'",
     "R' L R L' U' R L' B L B' L R' L'",
