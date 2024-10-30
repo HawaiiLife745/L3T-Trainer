@@ -5,7 +5,7 @@
   2: [
     "B R B' U' B R' B R B U B' R' B",
     "R' F D' B D F D' B' D F R",
-    "L' BL D' R D BL D' R' D BL L"
+    "L' BL D' R D BL D' R' D BL L",
     "B BL D R' D' BL D R D' BL B'"
   ],
   3: [
