@@ -75,21 +75,21 @@
     "R F U L' B L B' R B' R' B U' F' R'"
   ],
   14: [
-    "BL' BR L BL' L' BL BR' BL' L BL L' BL",
-    "BR' F B BR' B' BR F' BR' B BR B' BR",
-    "F' BL R F' R' F BL' F' R F R' F",
-    "F L' F L F' BR' F L' F' BR L F'"
+    "F B' U' BL B' R' B BL' B' R B U F' B",
+    "BL R' U' BR R' L' R BR' R' L R U BL' R",
+    "B' F U' BL B' R' B BL' B' R B U B F'",
+    "R' BL U' BR R' L' R BR' R' L R U R BL'"
   ],
   15: [
-    "F' R F' U' F D F' U F D' R' F",
-    "BL' L BL' U' BL D BL' U BL D' L' BL",
-    "BR' B BR' U' BR D BR' U BR D' B' BR",
-    "BR F' L R BL U' BL' U R' L' F BR'"
+    "L U F U' F' L F U F U' F L F' U F",
+    "B U BL U' BL' B BL U BL U' BL B BL' U BL",
+    "R U BR U' BR' R BR U BR U' BR R BR' U BR",
+    "B F' BL' F' BL' F' R' F BL' F' R B' F' U' F"
   ],
   16: [
     "R BL' U' BR D' L' D BR' D L U D' R' BL",
     "L BR' U' F D' B' D F' D B U D' L' BR",
-    "BR' L U' F D' B' D F' D B U D' BR L'",
+    "L R' L' R U BR B' BR' L R L' R' BR B BR'",
     "F' B U' BL D' R' D BL' D R U D' F B'"
   ],
   17: [
