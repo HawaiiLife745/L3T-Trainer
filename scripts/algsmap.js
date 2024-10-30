@@ -255,7 +255,7 @@
     "BL' R' D BL' R L' R' L BL R' D' BL R'"
   ],
   38: [
-    "L BL L BR' D' L' U L D L' U' BR BL' L'"
+    "L BL L BR' D' L' U L D L' U' BR BL' L'",
     "L' B L' D L D' BL' L' D L D' BL L B'",
    "B' R B' D B D' BR' B' D B D' BR B R'",
    "R' L R' D R D' F' R' D R D' F R L'",
