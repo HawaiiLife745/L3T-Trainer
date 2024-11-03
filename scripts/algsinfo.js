@@ -225,14 +225,14 @@ var algsInfo = {
         "a": [
             "[U'] {U, BR} H U' S'"
         ],
-        "s": "B' U B' L' B U' R B R' U B L B'"
+        "s": "B' U B' L' B U' R B R' U B L B' U'"
     },
     "27": {
         "name": "3.E.3",
         "a": [
             "[U] {U, BR} S U H'"
         ],
-        "s": "B U' B R B' U L' B' L U' B' R' B"
+        "s": "B U' B R B' U L' B' L U' B' R' B U"
     },
     "28": {
         "name": "3.E.4",
@@ -244,32 +244,31 @@ var algsInfo = {
     "29": {
         "name": "3.E.5",
         "a": [
-            "[U'] {U, BR} S U' H"
+            "[U'] {B,U} U' R' D R' U R D' R U' R U R'"
         ],
-        "s": "L R' L' R' U B U' R B R B' U B'"
+        "s": "R' L R L' B U' R B R' B' U B'"
     },
     "30": {
         "name": "3.E.6",
         "a": [
-            "[U] {U, BR} H U H",
-            "[U] {U, BL} S' U S'"
+            "[U'] {U,BR} S U' S"
         ],
-        "s": "L R' L' R U' L B' R B R' B L' B'"
+        "s": "R' L R L' U L B' R B R' B L' B' U"
     },
     "31": {
         "name": "3.E.7",
         "a": [
-            "[U'] {U, BR} S U' S"
+            "[U'] {U,BR} S U' H"
         ],
-        "s": "R' L R L' U L B' R B R' B L' B'"
+        "s": "L R' L' R' U B U' R B R B' U B'"
     },
     "32": {
         "name": "3.E.8",
         "a": [
-            "[U'] {B,U} U' R' D R' U R D' R U' R U R'",
-            "[U'] {R,BR} R' U R U' R D' R U R' D R' U'"
+            "[U] {U,BL} S' U S'",
+            "[U] {U, BR} H U H"
         ],
-        "s": "R' L R L' B U' R B R' B' U B'"
+        "s": "L R' L' R U' L B' R B R' B L' B'"
     },
     "33": {
         "name": "3.E.9",
@@ -278,7 +277,7 @@ var algsInfo = {
             "[U] {B,BL} U R D' R U' R' D R' U R' U' R",
             "[U'] {B, U} U' R' D R' U R D' R {U, BL} U R' U' R"
         ],
-        "s": "L R' L' R B' U L' B' L B U' B"
+        "s": "L R' L' R B' U L' B' L B U' B U"
     },
     "34": {
         "name": "3.O.1",
