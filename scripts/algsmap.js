@@ -1057,28 +1057,100 @@
    168: [
      ],
    169: [
+     "R B' BR' D' L' U L D' L' U' L D' BR R' B",
+     "L R' F' D' B' U B D' B' U' B D' F L' R",
+     "L' B BL L R' BR R L R' BR' R L BL' L B'",
+     "B' R BR B L' F L B L' F' L B BR' B R'",
+     "R' L F R B' BL B R B' BL' B R F' R L'",
+     "D' BL D' B' D B BL' U BL' B' R B R' BL D"
      ],
    170: [
+     "F L B' D' R D B R' L F' R' F L F' R",
+     "BL B R' D' L D R L' B BL' L' BL B BL' L",
+     "BR B' L' B L R' B R' B' R BR' B' BR R BR' B",
+     "F R' B' R B L' R L' R' L F' R' F L F' R",
+     "BL L' R' L R B' L B' L' B BL' L' BL B BL'",
+     "F BR D L' D' BR D L D' BR F' U L' B L B'"
      ],
    171: [
+     "F' R' B D L' D' B' L R' F L F' R' F L'",
+     "BL' L' R D B' D' R' B L' BL B BL' L' BL B'",
+     "BR' B' L D R' D' L' R B' BR R BR' B' BR R'",
+     "R' U' R' F' U F R' F' L' B L B' U' F R'",
+     "L' U' L' BL' U BL L' BL' B' R B R' U' BL L'",
+     "B' U' B' BR' U BR B' BR' R' L R L' U' BR B'"
      ],
    172: [
+     "B L' R' BL' F L' B' L F' B R BL B' L",
+     "R B' L' BR' BL B' R' B BL' R L BR R' B",
+     "B L' R' BL' F L' B' L B F' R BL B' L",
+     "R B' L' BR' BL B' R' B R BL' L BR R' B",
+     "L R' B' F' BR R' L' R L BR' B F L' R",
+     "R B' BR' L' BL B' R' B R BL' BR L R' B"
      ],
    173: [
+     "D' L BL' U' B L' B' L U BL L B L B' D",
+     "R BL U L D' L' U' D R' BL' U B' R B R'",
+     "L BR U B D' B' U' D L' BR' U R' L R L'",
+     "B F U R D' R' U' D B' F' U L' B L B'",
+     "L R' L' R U BR' L R L' R' BR U' L' B L B'",
+     "B L' B' L U F' B L B' L' F U' B' R B R'"
      ],
    174: [
+     "BR B' U' B L' B' L U L' B L BR' R' L R L'",
+     "F' L B L' BL B' L B L' BL' B' F R B' R' B",
+     "BL' B R B' BR R' B R B' BR' R' BL L R' L' R",
+     "BR' R L R' F L' R L R' F' L' BR B L' B' L",
+     "BR' R L R' F L' R L R' F' BR L' B L' B' L",
+     "F' L B L' BL B' L B L' BL' F B' R B' R' B",
      ],
    175: [
+     "L' B BL' R' D L' F' D' L R B' L",
+     "B L F L' B' L F' L' U L' B L B'",
+     "R B BL B' R' B BL' B' U B' R B R'",
+     "L R BR R' L' R BR' R' U R' L R L'",
+     "R BR R' L R BR' R' L' U' R B' R' B",
+     "L F L' B L F' L' B' U' L R' L' R"
      ],
    176: [
+     "B BL B' R B BL' B' R' U' B' R B R'",
+     "B' R' F' R B R' F R U' R' L R L'",
+     "R' L' BL' L R L' BL L U' L' B L B'",
+     "L' B' BR' B L B' BR B U' B' R B R'",
+     "R BL D R D' BL' L' BL' L R L' BL L",
+     "L BR D L D' BR' B' BR' B L B' BR B"
      ],
    177: [
+     "L R BR R' L' R BR' R' U R B' R' B",
+     "R B' R' B F' L' F' R F L F' R' F'",
+     "L R' L' R BL' B' BL' L BL B BL' L' BL'",
+     "B L' B' L BR' R' BR' B BR R BR' B' BR'",
+     "B L' D R BL D' B BR L B D R' D'",
+     "R B' D L BR D' R F B R D L' D'"
      ],
    178: [
+     "B L' B' L U' L F L' B L F' L' B'",
+     "R B' R' B U' B BL B' R B BL' B' R'",
+     "L R' L' R U' R BR R' L R BR' R' L'",
+     "B F' BL' L' B' L' B L' BL L' B' L F",
+     "R BL' BR' B' R' B' R B' BR B' R' B BL",
+     "L BR' F' R' L' R' L R' F R' L' R BR"
      ],
    179: [
+     "L' B BL B BL B' L U L' BL' L B'",
+     "BR' B L' B' BL B R' B' R BL' BR L",
+     "F' R B' R' BR R L' R' L BR' F B",
+     "BL' L R' L' F L B' L' B F' BL R",
+     "B' R' F D B' D B D' B' D' B' F' R",
+     "R' L' BL D R' D R D' R' D' R' BL' L"
      ],
    180: [
+     "F' L' F' R F L F' R' B F' L' B' L",
+     "BL' B' BL' L BL B BL' L' R BL' B' R' B",
+     "BR' R' BR' B BR R BR' B' L BR' R' L' R",
+     "L' R D R' D BL B D' B' D BL' D L",
+     "B' L D L' D BR R D' R' D BR' D B",
+     "R' B D B' D F L D' L' D F' D R"
      ]
    
 };
