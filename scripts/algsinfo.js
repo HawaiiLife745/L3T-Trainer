@@ -1297,85 +1297,85 @@ var algsInfo = {
       "169": {
         "name": "7.E.1",
         "a": [
-            "()"
+            "S U S U S' U' H"
             ],
-        "s": ""
+        "s": "R' L F R' F L F' R F L' F R L'"
     },
       "170": {
         "name": "7.E.2",
         "a": [
-            "()"
+            "[U'] S' U' S' U' S U S'"
             ],
-        "s": ""
+        "s": "B L' BL L B U' B L' BL' B BL' B' L"
     },
       "171": {
         "name": "7.E.3",
         "a": [
-            "()"
+            "[U] S U S U S' U' S"
             ],
-        "s": ""
+        "s": "R' L F' L' R' U R' L F R' F R L'"
     },
       "172": {
         "name": "7.O.1",
         "a": [
-            "()"
+            "H' U S U' S' U' S'"
             ],
-        "s": ""
+        "s": "D B' BL U L' B L B' U' R BL' B R' D'"
     },
       "173": {
         "name": "7.O.2",
         "a": [
-            "()"
+            "[U'] S' U S U' S' U' S'"
             ],
-        "s": ""
+        "s": "B L' BL' L BL' B' L U' L B BL B' L"
     },
       "174": {
         "name": "7.O.3",
         "a": [
-            "()"
+            "[U] S U' S' U S U S"
             ],
-        "s": ""
+        "s": "L R' L U' F R L' R' L F' U L R"
     },
       "175": {
         "name": "8.E.1",
         "a": [
-            "()"
+            "[U'] S' U H U H"
             ],
-        "s": ""
+        "s": "BR' R B' R' B BR U' R D' R D R"
     },
       "176": {
         "name": "8.E.2",
         "a": [
-            "()"
+            "{U,BL} S' U' S U' S"
             ],
-        "s": ""
+        "s": "B L' B' U' L R' F' L F L' R"
     },
       "177": {
         "name": "8.E.3",
         "a": [
-            "()"
+            "{U,BR} S U S' U S'"
             ],
-        "s": ""
+        "s": "B' R B U R' L F R' F' R L'"
     },
       "178": {
         "name": "8.O.1",
         "a": [
-            "()"
+            "[U'] {U,BL} S' U S' U H"
             ],
-        "s": ""
+        "s": "B' R BR R' B D' R' L F R L' D"
     },
       "179": {
         "name": "8.O.2",
         "a": [
-            "()"
+            "{U,BL} S U' S U' S'"
             ],
-        "s": ""
+        "s": "L R F' L D' L' D F L' R'"
     },
       "180": {
         "name": "8.O.3",
         "a": [
-            "()"
+            "{U,BR} S' U S' U S"
             ],
-        "s": ""
+        "s": "R' L' F R' D R D' F' R L"
     }
 }
