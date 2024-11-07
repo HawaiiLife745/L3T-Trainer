@@ -121,7 +121,7 @@ var algsInfo = {
         "name": "2.E.1",
         "a": [
             "{L, D} D' R' U' R' L R L' R B' R' B U R D",
-            "{R, D} D' R' U' R B' R' B R' L R L' U R D"
+            "{R,D} D' R' U' H S U R D"
         ],
         "s": "L B' R' B R' U L R' L' R U' R' B L' B'"
     },
@@ -152,39 +152,38 @@ var algsInfo = {
     "17": {
         "name": "2.E.5",
         "a": [
-            "{B, BL} D' Rw U R' U' R BR R' U R U' BR' Rw' D"
+            "R' U' R' L R L' U R L R' L' B' R B"
         ],
-        "s": "L R' L' R' U' R U B U' R' U B R' B"
+        "s": "B' R' B L R L' R' U' L R' L' R U R"
     },
     "18": {
         "name": "2.E.6",
         "a": [
-            "{U, F} R' U' R' L R L' U R L R' L' B' R B",
-            "(F' R U2 R' U F R U' R' U R' F' R U' R U2' R' F)"
+            "[U] B' BLw U S U S U L BLw'",
+            "[U] S U S U S U H"
         ],
-        "s": "B' R' B L R L' R' U' L R' L' R U R"
+        "s": "L' B L B R' U B' U' R U B U' R B R'"
     },
     "19": {
         "name": "2.E.7",
         "a": [
-            "{B,U} R U' BR' U R' U' R BR' U R' U' R BR' R' U",
-            "{U, BL} S' U' S' U' S' U' Uo' S"
+            "[U'] S U' S' U S' U' S"
         ],
-        "s": "R B' R' B' L U' B U L' U' B' U L' B' L"
+        "s": "L R' L' R' U' R U B U' R' U B R' B"
     },
     "20": {
         "name": "2.E.8",
         "a": [
-            "{L, U} U' R BR R' U R U' BR R' U R U' BR U R'",
-            "{U, BR} S U S U S U H"
+            "BLw L' U' S' U' S' U' BLw' B",
+            "[U'] H U' H U' H U' S"
         ],
-        "s": "L' B L B R' U B' U' R U B U' R B R'"
+        "s": "R B' R' B' L U' B U L' U' B' U L' B' L"
     },
     "21": {
         "name": "2.E.9",
         "a": [
-            "{U,BL} R U R B' R' B U' R B' R' B L R L' R",
-            "{U,BL} R U R B' R' B U' {R, B} Rw' U' Rw U' Rw' U Rw"
+            "{U,BL} R U H U' H L R L' R",
+            "{U,BL} R U H U' {R, B} Rw' U' Rw U' Rw' U Rw"
         ],
         "s": "B L B' R' L' R L U R' L R L' U' L'"
     },
